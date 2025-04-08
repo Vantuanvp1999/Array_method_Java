@@ -23,7 +23,7 @@ public class reverseArray {
         for (int k = 0; k < array.length; k++) {
             System.out.print(array[k] + " \t");
         }
-        for (int k = 0; k < array.length/26; k++) {
+        for (int k = 0; k < array.length/2; k++) {
             int temp = array[k];
             array[k] = array[size - 1 - k];
             array[size - 1 - k] = temp;
